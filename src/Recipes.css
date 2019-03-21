@@ -1,0 +1,35 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Indie Flower', Arial, Verdana, cursive;
+    color: #306539;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1260px;
+    margin: 0 auto;
+}
+
+.item {
+    width: 21%;
+    margin: 20px;
+    box-shadow: 2px 1px 5px 0px lightgrey;
+    padding-bottom: 15px;
+}
+
+.item p {
+    min-height: 36px;
+    color: #306539;
+    padding: 0 10px;
+}
+
+.item img.item-image {
+    max-width: 230px;
+}
+
+input.search-bar  {
+    width: 40%;
+    padding: 18px;
+    font-size: 1rem;
+}
